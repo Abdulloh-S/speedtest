@@ -468,7 +468,7 @@ startBtn.addEventListener('click', async () => {
     }, r));
     dlVal.textContent = dl.toFixed(2);
 
-    await sleep(100);
+    await sleep(200);
 
     phaseLabel.textContent = 'Тестирование загрузки...';
     drawGauge(0, 'ul');
@@ -484,7 +484,7 @@ startBtn.addEventListener('click', async () => {
     }, r));
     ulVal.textContent = ul.toFixed(2);
 
-    await sleep(100);
+    await sleep(200);
     phaseLabel.textContent = 'Тест завершён';
 
   } catch (err) {
